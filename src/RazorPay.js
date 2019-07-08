@@ -3,15 +3,6 @@ import React, { Component } from "react";
  class RazorPay extends Component {
     constructor(props) {
         super(props);
-
-        this.state = {
-            payment_amount: 1,
-            orderId: 'order_CpdHTen34rjLyI',
-            description: 'order desc',
-            keyId: 'rzp_test_b5TjkPSrkZUjMF',
-            name: 'order1'
-        };
-
         this.checkOutRazorPay = this.checkOutRazorPay.bind(this);
         this.embedScript = this.embedScript.bind(this);
     }
